@@ -12,15 +12,15 @@ body{
 }
 
 .ulOptions {
-		list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-    height: 100%; 
+    height: 100%;
     position: fixed;
     overflow: auto;
-    top: 0px; 
+    top: 0px;
     left: 0px;
 }
 
@@ -30,17 +30,13 @@ body{
 	padding: 8px 16px;
 	text-decoration: none;
 	text-align: left;
-	
+
 }
 
 .liOptions:hover {
 	background-color: #555;
 	color: white;
 	text-decoration: none;
-}
-
-liOptions:click {
-  scrolldown: 100;
 }
 
 .active {
@@ -54,7 +50,7 @@ liOptions:click {
   width: 100%;
   height: 300px;
  	margin: 0px 0px 0px 0px;
-  
+
 
 }
 
@@ -102,13 +98,18 @@ liOptions:click {
   position: absolute;
   margin: auto;
   padding-top: 0px;
-  length: 400px;
-  width: 400px;
+  length: 50px;
+  width: 50px;
   right: 475px;
   padding-top: 50px;
-  
+
 }
 
 .fa-facebook {
   font-size: 4em;
+}
+
+.myP{
+    text-color: red;
+    color: red;
 }
