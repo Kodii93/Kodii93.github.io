@@ -1,5 +1,5 @@
 body{
-  background-color: #d3d3d3;
+  background-color: #0E0B16;
 }
 
 .img {
@@ -15,13 +15,14 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    width: 15%;
     height: 100%;
     position: fixed;
     overflow: auto;
     top: 0px;
     left: 0px;
+    opacity: 0.7;
+    background-color: #4717F6;
 }
 
 .liOptions {
@@ -34,13 +35,13 @@ body{
 }
 
 .liOptions:hover {
-	background-color: #555;
+    background-color: #A239CA;
 	color: white;
 	text-decoration: none;
 }
 
 .active {
-	background-color: #4CAF50;
+	background-color: #A239CA;
 	color: white;
 	text-decoration: none;
 }
@@ -49,9 +50,7 @@ body{
   background-color: #F7F7C2;
   width: 100%;
   height: 300px;
- 	margin: 0px 0px 0px 0px;
-
-
+  margin: 0px 0px 0px 0px;
 }
 
 .portfolio-section {
@@ -107,9 +106,4 @@ body{
 
 .fa-facebook {
   font-size: 4em;
-}
-
-.myP{
-    text-color: red;
-    color: red;
 }
