@@ -1,22 +1,20 @@
 body{
   background-color: #0E0B16;
+  margin: 0;
+  padding: 0;
 }
 
-.img {
-	border-radius: 50%;
-	width: 275px;
-	length: 275px;
-	position: absolute;
-	left: 900px;
-	top: 5px;
+.firstBackgroundImage {
+    background-image: url("http://k46.kn3.net/6/B/9/8/9/0/E13.jpg");
 }
 
-.ulOptions {
+.navBar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: #333;
+
 }
 
 .liOptions {
@@ -52,19 +50,21 @@ li a:hover {
   background-color: #4717F6;
   width: 100%;
   height: 300px;
-  margin: 0px 0px 0px 0px;
+  margin: 0;
 }
 
 .portfolio-section {
   background-color: #A239CA;
   width: 100%;
   height: 300px;
+  margin: 0;
 }
 
 .contact-section {
   background-color: #E70FDD;
   width: 100%;
   height: 300px;
+  margin: 0;
 }
 
 .all-sections {
