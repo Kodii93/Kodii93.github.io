@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #0E0B16;
   margin: 0;
   padding: 0;
@@ -6,6 +6,9 @@ body{
 
 .firstBackgroundImage {
     background-image: url("http://k46.kn3.net/6/B/9/8/9/0/E13.jpg");
+    background-size: 100%;
+    position: fixed;
+    z-index: -1;
 }
 
 .navBar {
@@ -47,21 +50,21 @@ li a:hover {
 }
 
 .description-section {
-  background-color: #4717F6;
+  background-color: #;
   width: 100%;
   height: 300px;
   margin: 0;
 }
 
 .portfolio-section {
-  background-color: #A239CA;
+  background-color: #;
   width: 100%;
   height: 300px;
   margin: 0;
 }
 
 .contact-section {
-  background-color: #E70FDD;
+  background-color: #;
   width: 100%;
   height: 300px;
   margin: 0;
@@ -75,8 +78,10 @@ li a:hover {
 .description-text {
   padding-top: 90px;
   padding-left: 175px;
-  color: silver;
-  font-family: Tahoma;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .portfolio-text {
