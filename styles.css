@@ -1,29 +1,22 @@
 body {
-  background-color: #0E0B16;
-  margin: 0 auto;
-  padding: 0;
-  background-repeat: no-repeat;
-  width: 300px;
-  background-size: 100%;
-  position: absolute;
-  z-index: -1;
-  display: block;
-  font-size: 1.4rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  color: #93a4aa;
-  height: 33.333333%;
-
+    font-weight: 400;
 }
 
 div {
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 .container-fluid {
     background-image: url("https://i.ytimg.com/vi/JKxdRhjlckI/maxresdefault.jpg");
-    display: inline-block;
+    text-align: center;
+    height: 550px;
+    background-repeat: no-repeat;
+    min-width: 400px;
+    background-size: cover;
+    overflow: hidden;
+
 }
 
 .description-text {
@@ -38,13 +31,9 @@ div {
     background-color: white;
     text-align: center;
     margin: 0 auto;
+    height: 400px;
 }
 
-section {
-    padding: 0 0 50px;
-    background-color: blue;
-    width: auto;
-}
 
 .container {
     position: relative;
@@ -58,4 +47,11 @@ section {
 
 .skills {
     color: pink;
+    display: inline;
+}
+
+.test {
+    width: 100%;
+    color: white;
+    background-color: black;
 }
