@@ -3,77 +3,59 @@ body {
   margin: 0 auto;
   padding: 0;
   background-repeat: no-repeat;
-  min-width: 100%;
-  min-height: 100%;
-  background-image: url("https://i.ytimg.com/vi/JKxdRhjlckI/maxresdefault.jpg");
+  width: 300px;
   background-size: 100%;
   position: absolute;
   z-index: -1;
   display: block;
-  opacity: 1;
-  transition: 1s none;
-  background-color: black;
-}
-
-.navBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.liOptions {
-	float: left;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #93a4aa;
+  height: 33.333333%;
 
 }
 
-li a {
+div {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    margin: auto;
+}
+
+.container-fluid {
+    background-image: url("https://i.ytimg.com/vi/JKxdRhjlckI/maxresdefault.jpg");
+    display: inline-block;
 }
 
 .description-text {
-  padding-top: 90px;
-  padding-left: 175px;
   color: #dde8dd;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
+  margin: 0 auto;
+  position: relative;
   text-align: center;
 }
 
-.portfolio-text {
-  padding-top: 20px;
-  text-align: center;
-  text-decoration: underline;
-  height: 300px;
-  font-size: 30px;
-  color: #d16ebb;
+.skillSet {
+    color: white;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.contact-text {
-  padding-top: 20px;
-  text-align: center;
-  text-decoration: underline;
-  height: 300px;
-  font-size: 30px;
-  color: #d16ebb;
+section {
+    padding: 0 0 50px;
+    background-color: blue;
+    width: auto;
 }
 
-.img2 {
-  position: absolute;
-  margin: auto;
-  padding-top: 0px;
-  length: 50px;
-  width: 50px;
-  right: 475px;
-  padding-top: 50px;
-
+.container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    height: 100px;
+    background-color: white;
 }
 
-.fa-facebook {
-  font-size: 4em;
+
+.skills {
+    color: pink;
 }
