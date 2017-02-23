@@ -27,27 +27,38 @@ div {
 }
 
 .skillSet {
-    color: white;
-    background-color: white;
-    text-align: center;
-    margin: 0 auto;
-    height: 400px;
-}
+    background: white;
 
+}
 
 .container {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    height: 100px;
-    background-color: white;
+ width: 100%;
+ overflow: hidden;
+ background: #BF7BE2;
+ height: 300px;
+ font-size: 15px;
 }
-
 
 .skills {
     color: pink;
-    display: inline;
+}
+
+.html {
+    float: left;
+    width: 33.33333%;
+    background-color: yellow;
+}
+
+.css {
+    float: left;
+    width: 33.33333%;
+    background-color: red;
+}
+
+.jscript {
+    float: left;
+    width: 33.33333%;
+    background-color: blue;
 }
 
 .test {
