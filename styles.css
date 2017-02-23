@@ -13,7 +13,7 @@ div {
     text-align: center;
     height: 550px;
     background-repeat: no-repeat;
-    min-width: 400px;
+    width: 100%;
     background-size: cover;
     overflow: hidden;
 
@@ -27,16 +27,16 @@ div {
 }
 
 .skillSet {
-    background: white;
-
+    width: 100%;
 }
 
-.container {
+.myContainer {
  width: 100%;
  overflow: hidden;
  background: #BF7BE2;
  height: 300px;
  font-size: 15px;
+ text-align: center;
 }
 
 .skills {
@@ -65,4 +65,5 @@ div {
     width: 100%;
     color: white;
     background-color: black;
+    height: 100px;
 }
