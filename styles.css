@@ -42,7 +42,7 @@ h1 {
  text-align: center;
 }
 
-.skillsOverview {
+.skillsSection {
     background: #11cfff;
     width: 100%;
     height: 200px;
@@ -96,11 +96,21 @@ h1 {
     top: 20px;
 }
 
+.myContainer2 {
+    position: relative;
+    background:#F7C8D4;
+    height: 450px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    overflow: hidden;
+}
+
 .portfolioSection {
     position: relative;
     text-align: center;
     background:#F7C8D4;
-    height: 450px;
+    height: 200px;
     width: 100%;
     color: white;
     font-size: 15px;
@@ -116,4 +126,23 @@ h1 {
 #portfolioHeader {
     text-decoration: underline;
     font-weight: inherit;
+    text-align: center
+}
+
+.wikipediaProject {
+    color: white;
+
+}
+
+.wikipediaIcon {
+    color: white;
+    font-size: 2.0em;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#wikipediaImg {
+    height: 200px;
+    width: 300px;
+    float: right;
 }
