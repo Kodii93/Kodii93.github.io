@@ -99,7 +99,7 @@ h1 {
 .myContainer2 {
     position: relative;
     background:#F7C8D4;
-    height: 450px;
+    height: 1000px;
     width: 100%;
     color: white;
     font-size: 15px;
@@ -131,6 +131,7 @@ h1 {
 
 .wikipediaProject {
     color: white;
+    position: absolute;
 
 }
 
@@ -160,5 +161,41 @@ h1 {
     float: left;
     position: relative;
     left: 100px;
+    top: 100px;
+}
+
+#twitchProject {
+    position: relative;
+    color: white;
+    top: 400px;
+}
+
+#twitchIconAndImg {
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    margin-left: 70px;
+}
+
+#twitchIcon {
+    position: relative;
+    color: white;
+    font-size: 2.0em;
+    bottom: 10px;
+    text-align: center;
+}
+
+#twitchImg {
+    position: relative;
+    height: 200px;
+    width: 350px;
+    float: left;
+}
+
+#twitchDescription {
+    float: right;
+    position: relative;
+    right: 100px;
     top: 100px;
 }
