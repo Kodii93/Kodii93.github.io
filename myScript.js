@@ -1,3 +1,3 @@
  $(document).ready(function(){
-     $('body').hide().fadeIn('slow');
+     $('#wrapper').hide().fadeIn(3000);
 });
