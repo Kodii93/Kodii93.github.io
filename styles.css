@@ -3,10 +3,9 @@ body {
 }
 
 div {
-    display: inline-block;
+    /*display: inline-block;
     margin: 0;
-    padding: 0;
-
+    padding: 0;*/
 }
 
 h1 {
@@ -110,7 +109,7 @@ p {
 
 .myContainer2 {
     position: relative;
-    background:#F7C8D4;
+    background:#000066;
     height: 1000px;
     width: 100%;
     color: white;
@@ -118,10 +117,10 @@ p {
     overflow: hidden;
 }
 
-.portfolioSection {
+.portfolioHeader {
     position: relative;
     text-align: center;
-    background:#F7C8D4;
+    background: inherit;
     height: 300px;
     width: 100%;
     color: #FAFAFA;
@@ -142,15 +141,20 @@ p {
 
 .wikipediaProject {
     color: inherit;
-    position: absolute;
+    position: relative;
+    width: 50%;
+    margin:  auto;
+    text-align: center;
 }
 
 #wikipediaIconAndImg {
-    position: relative;
+    position: absolute;
     text-align: center;
-    left: 300px;
     height: 200px;
     width: 350px;
+    color: inherit;
+    /*margin:  auto;*/
+    display: inline-block;
 }
 
 .wikipediaIcon {
@@ -169,15 +173,16 @@ p {
 
 #wikipediaDescription {
     float: left;
-    position: relative;
-    left: 100px;
-    top: 100px;
+    display: inline-block;
 }
 
 #twitchProject {
     position: relative;
     color: white;
     top: 300px;
+    height: 300px;
+    width: 100%;
+    display: inline-block;
 }
 
 #twitchIconAndImg {
