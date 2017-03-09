@@ -129,7 +129,7 @@ p {
 }
 
 .briefcaseIcon {
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 #portfolioHeader {
@@ -212,4 +212,22 @@ p {
     position: relative;
     left: 400px;
     bottom: 135px;
+}
+
+.myContainer3 {
+    background: white;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.laptopIcon {
+    font-size: 4.0em;
+    margin-top: 10px
+}
+
+#contactMe {
+    color: black;
+    text-align: center;
+    font-weight: 600;
 }
