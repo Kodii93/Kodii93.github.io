@@ -222,6 +222,10 @@ p {
     overflow: hidden;
 }
 
+#contactHeader {
+    margin-bottom: 40px;
+}
+
 .laptopIcon {
     font-size: 4.0em;
     margin-top: 10px
@@ -241,17 +245,37 @@ p {
 }
 
 input {
-    display: block;
     text-align: center;
     position: relative;
-    margin: auto;
-    display: inline-block;
+    width: 202px;
+}
+
+#contactInfo {
+    /*width: 50%*/
 }
 
 #firstNameInput {
-
+    margin-right: 18px;
 }
 
 #lastNameInput {
+    margin-left: 18px;
+}
 
+#emailInput {
+    margin-right: 16px;
+    right: 4px;
+}
+
+#numberInput {
+    margin-left: 16px;
+}
+
+.lowerInput {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#messageBox {
+    width: 446px;
 }

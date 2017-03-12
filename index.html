@@ -115,20 +115,22 @@
 
     <section id="contactBody">
         <form action="http://formspree.io/codyrourick@gmail.com" method="POST">
+<div id="contactInfo">
 
 <input id="firstNameInput" type="text" name="name" placeholder="Your First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your First Name'" >
 <!-- <br /> -->
 <input id="lastNameInput" type="text" name="name" placeholder="Your Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Last Name'" >
+<br />
+<input id="emailInput" class="lowerInput" type="text" name="email" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'">
 <!-- <br /> -->
-<input id="emailInput" type="text" name="email" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'">
-<!-- <br /> -->
-<input id="numberInput" type="text" name="phone" placeholder="Your Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Number'">
-<!-- <br /> -->
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<input id="numberInput" class="lowerInput" type="text" name="phone" placeholder="Your Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Number'">
+</div>
+<br />
+<textarea id="messageBox" name="message" rows="6" cols="25" placeholder="What are your goals for your project?  What can I do for you?" onfocus="this.placeholder =''" onblur="this.placeholder = 'What are your goals for your project?  What can I do for you?'"></textarea>
+<br />
 <input id="sendBtn" type="submit" value="Send">
 </form>
     </section>
 </div>
-
 </div>
 </body>
