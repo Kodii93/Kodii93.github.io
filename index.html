@@ -114,27 +114,18 @@
     </section>
 
     <section id="contactBody">
-        <!-- <form action="mail.php" method="POST">
-        <p>Name</p> <input type="text" name="name">
-        <p>Email</p> <input type="text" name="email">
-        <p>Message</p> <textarea name="message" rows="6" cols="25"></textarea><br />
-        <input type="submit" value="Send"><input type="reset" value="Clear">
-        </form> -->
-
         <form action="http://formspree.io/codyrourick@gmail.com" method="POST">
-<p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Phone</p> <input type="text" name="phone">
-<p>Dropdown Box</p>
-<select name="dropdown" size="1">
-<option value="Option1">Option1</option>
-<option value="Option2">Option2</option>
-<option value="Option3">Option3</option>
-<option value="Option4">Option4</option>
-</select>
-<br />
+
+<input id="firstNameInput" type="text" name="name" placeholder="Your First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your First Name'" >
+<!-- <br /> -->
+<input id="lastNameInput" type="text" name="name" placeholder="Your Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Last Name'" >
+<!-- <br /> -->
+<input id="emailInput" type="text" name="email" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'">
+<!-- <br /> -->
+<input id="numberInput" type="text" name="phone" placeholder="Your Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Number'">
+<!-- <br /> -->
 <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-<input type="submit" value="Send"><input type="reset" value="Clear">
+<input id="sendBtn" type="submit" value="Send">
 </form>
     </section>
 </div>
