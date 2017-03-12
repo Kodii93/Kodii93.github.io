@@ -242,6 +242,7 @@ p {
     text-align: center;
     margin: auto;
     position: relative;
+    font-weight: 400;
 }
 
 input {
@@ -278,4 +279,7 @@ input {
 
 #messageBox {
     width: 446px;
+}
+
+#required {
 }
